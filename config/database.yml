@@ -1,0 +1,27 @@
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: homerkr_development
+  pool: 5
+  host: localhost
+  username: chloestinetorf
+  password:
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: homerkr_test
+  pool: 5
+  host: localhost
+  username: chloestinetorf
+  password:
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: homerkr_production
+  pool: 5
+  host: localhost
+  username: chloestinetorf
+  password:
